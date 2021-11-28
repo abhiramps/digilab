@@ -1,0 +1,36 @@
+.blog-item{
+    position: relative;
+    .blog-img{
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 360px;
+        }
+        .overlay{
+            position: absolute;
+            height: 360px;
+            // width: 100%;
+            background-color: rgba(0, 0, 0, 0.233);
+        }
+        @media screen and (max-width:765px) {
+            img{
+                height: 450px;
+            }
+            .overlay{
+                // position: relative;
+                height: auto;
+                // width: 100%;
+                background-color: rgba(0, 0, 0, 0.233);
+            }
+        }
+    }
+  
+    .blog-date{
+        position:absolute;
+        left: 0;
+        width: 140px;
+        label{
+            font-size: 3rem;
+        }
+    }
+}

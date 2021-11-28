@@ -1,0 +1,41 @@
+
+
+$primary: #25408f;
+$secondary: #8f5325;
+$success: #3e8d63;
+$info: #13101c;
+$warning: #945707;
+$danger: #d62518;
+$light: #dce4e7f3;
+$lighter:#f3f3f34f;
+$dark: #343a40; 
+$black:#000;
+$green:#31de79;
+$transparent:#E0E0E0;
+$transp:#ffffffb3;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "lighter":$lighter,
+  "dark": $dark,
+  "green":$green,
+  "transparent":$transparent,
+  "transp":$transp,
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width:100%;
+}

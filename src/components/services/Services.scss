@@ -1,0 +1,9 @@
+@import '../../App.scss';
+
+.icons{
+    font-size: 6rem;
+}
+.nav-pills .nav-link.active{
+    color:#fff !important;
+    background-color:$green;
+}   

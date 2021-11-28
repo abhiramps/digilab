@@ -1,0 +1,32 @@
+
+.research-component{
+    background: url("../../images/xbg_3.jpg.pagespeed.ic.H9yFk9Cd4C.webp");
+    // background-image:url("assets/images/xbg_3.jpg.pagespeed.ic.H9yFk9Cd4C.webp");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.animation{
+    transition: all .5s ease-in-out;
+}
+.icon-arrow{
+    transform:rotate(180deg) ;
+}
+.research-bg{
+    background-color: rgba(255, 255, 255, 0.438);
+    // opacity: 1;
+}
+.research{
+    background-color: rgba(255, 255, 255, 0.842);
+    // width: 200px;
+    transition: all .5s ease;
+}
+.research:hover{
+    transform: translateX(-100px);
+    .icon-arrow{
+        transition:all .5s ease-in-out;
+        transform:rotate(0) ;
+    }
+}

@@ -15,13 +15,18 @@ function CarouselComponent() {
         <div id='home'>
             <Carousel
                 className='vh-100 hero'
-                autoPlay infiniteLoop interval='2000'
+                autoPlay infiniteLoop interval='3000'
+                emulateTouch={true}
+                preventMovementUntilSwipeScrollTolerance={true}
+                swipeable={true}
+                verticalSwipe={true}
+                // axis={vertical}
                 // width='700px' 
-                showStatus={false}
-                showArrows={false}
-                selectedItem={0}
+                // showStatus={false}
+                // showArrows={false}
+                // selectedItem={0}
                 showThumbs={false}
-                showIndicators={false}
+                // showIndicators={false}
             >
                 <div className='slide-1'>
                     <Row className='gx-5'>                    

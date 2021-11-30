@@ -99,7 +99,7 @@ function Footer() {
                     </Col>
                 </Row>
                 <Row className='text-center'>
-                    <p >Copyright ©2021 All rights reserved | This template is made with  by Colorlib</p>
+                    <p >Copyright ©2021 All rights reserved | This website is made by Abhiramps</p>
                 </Row>
             </Container>
         </div>

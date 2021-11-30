@@ -39,17 +39,17 @@ function Blog() {
         <div className='pt-5' id='blog'>
             <Container className='pt-4'>
                 <Row className='d-flex justify-content-center'>
-                    <div className='d-flex flex-column align-items-center justify-content-center w-50'>
+                    <div className='d-flex flex-column align-items-center justify-content-center w-75 p-0 pb-lg-3'>
                         <h5 className='text-green fw-normal fs-6 pb-2'>BLOG</h5>
-                        <h1 className='fw-normal pb-2'>OUR BLOG</h1>
-                        <p className='text-center fw-lighter lh-lg py-4'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <h1 className='fw-normal pb-1'>OUR BLOG</h1>
+                        <p className='text-center fw-lighter lh-lg py-2'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                     </div>
                 </Row>
                 <Row className='p-2'>
                     {
                         BlogItems.map(item => (
 
-                            <Col  md={4} lg={4} className='py-sm-5'>
+                            <Col  md={4} lg={4} className='py-4 py-sm-5'>
                                 <div className='blog-item d-flex flex-column align-items-center'>
                                     <div className='blog-img'>
                                         <div className='overlay'></div>

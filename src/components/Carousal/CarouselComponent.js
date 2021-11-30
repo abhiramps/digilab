@@ -16,14 +16,14 @@ function CarouselComponent() {
             <Carousel
                 className='vh-100 hero'
                 autoPlay infiniteLoop interval='3000'
-                emulateTouch={true}
+                // emulateTouch={true}
                 preventMovementUntilSwipeScrollTolerance={true}
-                swipeable={true}
-                verticalSwipe={true}
+                // swipeable={true}
+                verticalSwipe={false}
                 // axis={vertical}
                 // width='700px' 
-                // showStatus={false}
-                // showArrows={false}
+                showStatus={false}
+                showArrows={false}
                 // selectedItem={0}
                 showThumbs={false}
                 // showIndicators={false}

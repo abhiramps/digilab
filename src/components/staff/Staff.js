@@ -55,14 +55,15 @@ function Staff() {
         ]
     },
     ])
+
     return (
-        <div className='pt-5'>
+        <div className='pt-2'>
             <Container className='pt-4'>
                 <Row className='d-flex justify-content-center'>
-                    <div className='d-flex flex-column align-items-center justify-content-center w-50'>
+                    <div className='d-flex flex-column align-items-center justify-content-center w-75 p-0 pb-lg-3'>
                         <h5 className='text-green fw-normal fs-6 pb-2'>ABOUT US</h5>
-                        <h1 className='fw-normal pb-2'>OUR STAFF</h1>
-                        <p className='text-center fw-lighter lh-lg py-4'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        <h1 className='fw-normal pb-1'>OUR STAFF</h1>
+                        <p className='text-center fw-lighter lh-lg py-2'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                     </div>
                 </Row>
                 <Row className='g-5'>

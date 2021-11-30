@@ -24,7 +24,7 @@ function Research() {
     ])
 
     return (
-        <div className='research-component animation'>
+        <div className='research-component animation '>
             <Container fluid>
                 <Row>
                     <Col md={6}>

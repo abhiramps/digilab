@@ -1,3 +1,8 @@
 .contact-card{
-    height: 300px;
+    height: 200px;
+}
+@media screen  and (min-width:990px){
+    .contact-card{
+        height: 300px;
+    }
 }

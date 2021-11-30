@@ -70,7 +70,7 @@ function Services() {
 
     ])
     return (
-        <div id='services' className='bg-lighter'>
+        <div id='services' className='bg-lighter  py-5 py-sm-0'>
             <Container>
 
                 <Tab.Container defaultActiveKey="first" >

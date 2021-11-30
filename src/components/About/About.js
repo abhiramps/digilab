@@ -13,7 +13,7 @@ function About() {
         }
       });
     return (
-        <div id='about' className='py-sm-5'> 
+        <div id='about' className='py-5'> 
             <Container>
                 <Row >
                     <Col md={5} className='about-image d-none d-md-block'>

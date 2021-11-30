@@ -53,7 +53,7 @@ function Projects() {
         },
     ])
     return (
-        <div id='projects' className='py-5 bg-lighter'>
+        <div id='projects' className='pb-3 pb-sm-5 bg-lighter'>
             <Container className='d-flex flex-column align-items-center justify-content-center'>
                 <h5 className='pt-5 mt-5 text-green fw-light'>ACCOMPLISHMENTS</h5>
                 <h2 className='fs-1 fw-normal'>OUR PROJECTS</h2>

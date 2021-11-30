@@ -15,7 +15,7 @@ import Staff from './components/staff/Staff';
 
 function App() {
   return (
-    <div>
+    <div style={{overflowX:'hidden'}}>
       <NavBarComponent/>
       {/* <NavBarScroll/> */}
       <CarouselComponent/>

@@ -1,66 +1,81 @@
 @import '../../App.scss';
 
-// $green:#31de79;
-// $black:#000;
+// // $green:#31de79;
+// // $black:#000;
 
-.BRAND {
-    font-size: 2.25rem;
-    font-weight: 900;
-    span{
-        color: $green;
-    }
-}
+// .BRAND {
+//     font-size: 2.25rem;
+//     font-weight: 900;
+//     span{
+//         color: $green;
+//     }
+// }
+   
 .NAVBAR-LIGHT{
-    box-shadow: 0px 1px 8px -1px;
-    .NAVBAR-NAV{
-        margin-right: 0 !important;
-        margin-left: auto;
-        .NAV-LINK {
-            span{
-                color: $black;
-                transition: all 250ms ease-in-out;
-            }
-            span:hover{
-                color: #31de79;
-                padding: 0 0 .5rem 0;
-                border-bottom: solid #31de79 2px ;
-            }
+    box-shadow: -1px 2px 8px -4px;
+    .NAV-LINK {
+        span{
+            // color: $black;
+            transition: all 50ms ease-in-out;
+        }
+        span:hover{
+            color: #31de79;
+            padding: 0 0 .5rem 0;
+            border-bottom: solid #31de79 2px ;
         }
     }
 }
 
-@media (max-width: 992px){
-    // .BRAND {
-    //     color:#fff !important;
-    // }
-    .color-lg-white{
-        color:#fff ;
-    }
-    .NAVBAR-NAV{
-        max-height:600px !important;
-        background-color:#9e9d9e;
-        .NAV-LINK {
-            padding:2rem;
-            span{
-                color:#fff !important;
+.navbar-nav .nav-link.active {
+    color: $green !important;
+}
+// .NAVBAR-LIGHT{
+//     box-shadow: 0px 1px 8px -1px;
+//     .NAVBAR-NAV{
+//         margin-right: 0 !important;
+//         margin-left: auto;
+//         .NAV-LINK {
+//             span{
+//                 color: $black;
+//                 transition: all 250ms ease-in-out;
+//             }
+//             span:hover{
+//                 color: #31de79;
+//                 padding: 0 0 .5rem 0;
+//                 border-bottom: solid #31de79 2px ;
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 992px){
+//     .color-lg-white{
+//         color:#fff ;
+//     }
+//     .NAVBAR-NAV{
+//         max-height:600px !important;
+//         background-color:#9e9d9e;
+//         .NAV-LINK {
+//             padding:2rem;
+//             span{
+//                 color:#fff !important;
                
-                transition: all .4s ease-in-out;
-            }
-            span:hover{
-                // color: #31de79;
-                padding: 0 0 .5rem 0;
-                border-bottom: solid #31de79 2px ;
-            }
-        }
-    }
+//                 transition: all .4s ease-in-out;
+//             }
+//             span:hover{
+//                 // color: #31de79;
+//                 padding: 0 0 .5rem 0;
+//                 border-bottom: solid #31de79 2px ;
+//             }
+//         }
+//     }
 
-}
+// }
 
-.cont{
-    /* width: 100%; */
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-}
+// .cont{
+//     padding-right: var(--bs-gutter-x, 0.75rem);
+//     padding-left: var(--bs-gutter-x, 0.75rem);
+//     margin-right: auto;
+//     margin-left: auto;
+// }
 
